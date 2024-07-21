@@ -99,10 +99,10 @@ ul a {
 
 .feat-sub {
     font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02px; 
+    font-size: 20px; 
     color: #2E2F42;
     line-height: 1.2;
+    letter-spacing: 0.02em
 } 
 .feat-text {
     font-size: 16px;
@@ -111,20 +111,33 @@ ul a {
 }
 
 /* Team section*/
-.t-s {
+.team-s {
     background-color: #F4F4FD;
+}
+.team-list {
+    background-color: #FFFFFF;
 }
 .team-title {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.72px;
     color: #2E2F42;
+    text-align: center;
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 .team-sub {
     font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.04px;
         color: #2E2F42;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Portfolio Section*/
