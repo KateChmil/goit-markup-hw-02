@@ -41,7 +41,9 @@ ul a {
 .navigation-link:focus {
     color:#404BBF;
 }
-
+.address {
+    font-style: normal;
+}
 .address-link {
     color: #434455;
     font-size: 16px;
@@ -62,7 +64,7 @@ ul a {
 .f-s {
     background-color: #2E2F42;
 }
-h1 {
+.first-title {
     color: #ffffff;
     background-color: #2E2F42;
     font-weight: 700; 
@@ -90,8 +92,9 @@ h1 {
 .feat-title {
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     color: #ffffff;
+    line-height: 1.2;
 }
 
 .feat-sub {
@@ -99,6 +102,11 @@ h1 {
     font-size: 20px;
     letter-spacing: 0.04px; 
     color: #2E2F42;
+} 
+.feat-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Team section*/
