@@ -61,7 +61,7 @@ ul a {
 
 
 /* First main section*/
-.f-s {
+.first-s {
     background-color: #2E2F42;
 }
 .first-title {
@@ -100,8 +100,9 @@ ul a {
 .feat-sub {
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 0.04px; 
+    letter-spacing: 0.02px; 
     color: #2E2F42;
+    line-height: 1.2;
 } 
 .feat-text {
     font-size: 16px;
